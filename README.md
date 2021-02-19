@@ -7,7 +7,7 @@ This repository contains my solution for the third project in Udacity's Deep Rei
 
 <p align="center"> <img src="tennis.png" width="400"> </p>
 
-The observation space includes 24 variables corresponding to the position and velocity of the ball and the rackets. Each agent has its own local observation space so the joint observation space has 48 variables total. The actions available to each agent at each time step are to move left or right and up or down. The environment is considered solved once the agents achieve an average score of +0.5 over 100 consecutive episodes.
+The observation space includes 24 continuous values corresponding to the position and velocity of the ball and the rackets. Each agent has its own local observation space so the joint observation space is represented by 48 values. The actions available to each agent at each time step are to move left or right and up or down. The environment is considered solved once the agents achieve an average score of +0.5 over 100 consecutive episodes.
 
 ### Getting Started
 

@@ -16,18 +16,18 @@ The Critic models each take a state of size 48 and action of size 4 as input. Wh
 
 ### Model summary
 
-`BUFFER_SIZE = int(1e6)
-BATCH_SIZE = 64
-UPDATE_EVERY = 2
-GAMMA = 0.99
-TAU = 1e-3
-LR_ACTOR = 3e-4
-LR_CRITIC = 5e-4
-EPS = 1.0
-eps_decay = 0.9985
-eps_floor = 0.05
-actor_layers = (128, 64, 2)
-critic_layers = (128, 64, 2)`
+* BUFFER_SIZE = int(1e6)
+* BATCH_SIZE = 64
+* UPDATE_EVERY = 2
+* GAMMA = 0.99
+* TAU = 1e-3
+* LR_ACTOR = 3e-4
+* LR_CRITIC = 5e-4
+* EPS = 1.0
+* eps_decay = 0.9985
+* eps_floor = 0.05
+* actor_layers = (128, 64, 2)
+* critic_layers = (128, 64, 2)`
 
 ### Plot of Rewards
 

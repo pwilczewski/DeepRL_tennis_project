@@ -13,9 +13,7 @@ My solution was coded using Python version 3.6.12, PyTorch version 0.4.0 and Ope
 
 1. The requirements for running my solution are available in the Udacity [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies). These instructions can be found in `README.md` at the root of the repository.
 
-2. Additionally you will need to download the Tennis environment. My solution was created on a Windows (64-bit) machine and trained using a GPU.
-
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+2. Additionally you will need to download the [Tennis environment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip). My solution was created on a Windows (64-bit) machine and trained using a GPU.
 
 3. After downloading the file you may copy this repository, place the Reacher environment file in the project directory and unzip it. 
 

@@ -5,7 +5,7 @@
 
 This repository contains my solution for the third project in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained two agents to solve the Tennis environment by controlling their respective rackets. In this environment a reward of +0.1 is provided if the agent hits the ball over the net and a reward of -0.01 is provided if the ball drops to the ground or is hit out of bounds. The goal of my agents is to keep the ball in play by cooperating to hit it back-and-forth over the net.
 
-
+![Scores](score_history.png)
 
 The observation space includes 24 variables corresponding to the position and velocity of the ball and the rackets. Each agent has its own local observation space so the joint observation space has 48 variables total. The actions available to each agent are to either move left and right [-1,1] or up and down [-1,1], represented as a vector of length two for each agent. The environment is considered solved once the agents achieve an average score of +0.5 over 100 consecutive episodes.
 
@@ -21,4 +21,4 @@ My solution was coded using Python version 3.6.12, PyTorch version 0.4.0 and Ope
 
 ### Instructions
 
-After completing the initial setup, the Jupyter Notebook `Tennis_Solution.ipynb` contains my solution. The notebook references three supporting python files. The `udacity_agent.py` file contains the definition of the agents, the `udacity_model.py` file contains the structure of the deep neural network model and the `udacity_buffer.py` file contains the replay buffer. Finally the estimated model parameters that solved the environment are located in the `actors0_local.pth`, `actors1_local.pth`, `critics0_local.pth` and `critics0_local.pth` files. The `report.md` file contains a descrption of the algorithm used to estimate these parameters.
+After completing the initial setup, the Jupyter Notebook `Tennis_Solution.ipynb` contains my solution. The notebook references three supporting python files. The `udacity_agent.py` file contains the definition of the agents, the `udacity_model.py` file contains the structure of the deep neural network model and the `udacity_buffer.py` file contains the replay buffer. Finally the estimated model parameters that solved the environment are located in the `actor0_local.pth`, `actor1_local.pth`, `critic0_local.pth` and `critic1_local.pth` files. The `report.md` file contains a descrption of the algorithm used to estimate these parameters.

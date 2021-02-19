@@ -3,7 +3,7 @@
 
 ### Introduction
 
-This repository contains my solution for the third project in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained two agents to solve the Tennis environment by controlling their respective rackets. In this environment a reward of +0.1 is provided if the agent hits the ball over the net and a reward of -0.01 is provided if the ball drops to the ground or is hit out of bounds. The goal of my agents is to keep the ball in play by cooperating to hit it back-and-forth over the net.
+This repository contains my solution for the third project in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained two agents to solve the Tennis environment by controlling their respective rackets. In this environment the agent receives a reward of +0.1 if the it the ball over the net and a reward of -0.01 if the ball drops to the ground or is hit out of bounds. The goal of my agents is to keep the ball in play by cooperating to hit it back-and-forth over the net.
 
 <p align="center"> <img src="tennis.png" width="400"> </p>
 

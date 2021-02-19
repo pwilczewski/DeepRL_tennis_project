@@ -5,7 +5,7 @@
 
 This repository contains my solution for the third project in Udacity's Deep Reinforcement Learning Nanodegree. For this project I trained two agents to solve the Tennis environment by controlling their respective rackets. In this environment a reward of +0.1 is provided if the agent hits the ball over the net and a reward of -0.01 is provided if the ball drops to the ground or is hit out of bounds. The goal of my agents is to keep the ball in play by cooperating to hit it back-and-forth over the net.
 
-![Scores](tennis.png)
+<img src="tennis.png" width="200">
 
 The observation space includes 24 variables corresponding to the position and velocity of the ball and the rackets. Each agent has its own local observation space so the joint observation space has 48 variables total. The actions available to each agent are to either move left and right [-1,1] or up and down [-1,1], represented as a vector of length two for each agent. The environment is considered solved once the agents achieve an average score of +0.5 over 100 consecutive episodes.
 
